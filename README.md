@@ -9,7 +9,7 @@ Connection to the Dyson Link smart accessory requires a username and password, b
 
 The username is your device serial ID - you can derive this from your product SSID by removing `DYSON-` from the start and `-475` from the end.  It is also shown on the Dyson Link app.
 
-The password is a base-64 encoded SHA-512 hash of the password shown on your front sticker or user manual.
+The password is a base-64 encoded SHA-512 hash of the password shown on your front sticker or user manual.  [You can use this online tool to help derive your encoded hash.](http://hash.online-convert.com/sha512-generator)
 
 ## Example HomeBridge config.json entry
 
