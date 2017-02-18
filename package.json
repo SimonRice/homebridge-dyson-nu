@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-dyson",
+  "version": "0.1.0",
+  "description": "HomeBridge interface to Dyson Link smart purifiers",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "dyson",
+    "mqtt"
+  ],
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "author": "Benjamin Surma <virtualxdriver@icloud.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/virtualxdriver/homebridge-dyson.git"
+  },
+  "license": "MIT"
+}
