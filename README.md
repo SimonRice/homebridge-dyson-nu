@@ -5,9 +5,13 @@ This HomeBridge plugin is experimental and not affiliated with, or endorsed by D
 
 ## Configuration
 
-Connection to the Dyson Link smart accesory requires a username and password. While the username is the one provided on the sticker affixed to the device, the password is uniquely generated during the initial setup phase and will need to be dumped and extracted from the network traffic between the Dyson Link app and the device.
+Connection to the Dyson Link smart accessory requires a username and password, both of which you can derive from your front sticker or user manual.
 
-## HomeBridge config.json entry
+The username is your device serial ID - you can derive this from your product SSID by removing `DYSON-` from the start and `-475` from the end.  It is also shown on the Dyson Link app.
+
+The password is a base-64 encoded SHA-512 hash of the password shown on your front sticker or user manual.
+
+## Example HomeBridge config.json entry
 
 ```
 "accessories": [
