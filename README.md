@@ -1,4 +1,6 @@
 # homebridge-dyson
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/simonrice/homebridge-dyson-nu.svg)](https://greenkeeper.io/)
 HomeBridge interface to Dyson Link smart purifiers.
 
 This HomeBridge plugin is experimental and not affiliated with, or endorsed by Dyson.
